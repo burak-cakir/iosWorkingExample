@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct houseplantAddProduct: View {
-    @State var id : Int = 0
+//    @State var id : Int = 0
     @State var name : String = ""
     @State var description : String = ""
     @State var images : String = ""
@@ -32,7 +32,7 @@ struct houseplantAddProduct: View {
                 
                 Section(header: Text("İmages link")){
                     TextField("images", text:$images)
-                    TextField("price", text:$price)
+                    TextField("price", text:($price))
                     
                     }
                     
@@ -41,7 +41,7 @@ struct houseplantAddProduct: View {
                     
                     
                     
-                    Button("Ekle"){
+                    Button("Add"){
                         
                         let model = ProductModel(
                                                  name: name,
@@ -56,7 +56,7 @@ struct houseplantAddProduct: View {
                         }
                         
                     }
-                    .disabled(name.isEmpty || description.isEmpty)
+                    .disabled(name.isEmpty )
                 }
   
             }

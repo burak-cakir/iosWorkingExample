@@ -42,7 +42,7 @@ class ProductRepository{
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         
-        let postString = "id=\(productModel.id)&name=\(productModel.name)&description=\(productModel.description)&price=\(productModel.price)"
+        let postString = "name=\(productModel.name)&description=\(productModel.description)&images=\(productModel.images)&price=\(productModel.price)"
         
         
         request.httpBody = postString.data(using: .utf8)
@@ -73,10 +73,9 @@ class ProductRepository{
 
 
 struct ProductModel : Codable{
-    var id: Int = 0
+//    var id: Int = 0
     var name:String = ""
     var description:String = ""
     var images:String = ""
     var price:String = ""
-    
 }
