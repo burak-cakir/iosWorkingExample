@@ -11,6 +11,9 @@
 		19833CD227456133006A1B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CD127456133006A1B7F /* ContentView.swift */; };
 		19833CD427456134006A1B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19833CD327456134006A1B7F /* Assets.xcassets */; };
 		19833CD727456134006A1B7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19833CD627456134006A1B7F /* Preview Assets.xcassets */; };
+		19833CDF2745A9D0006A1B7F /* houseplantProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CDE2745A9D0006A1B7F /* houseplantProductRepository.swift */; };
+		19833CE42745AB8E006A1B7F /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CE32745AB8E006A1B7F /* config.swift */; };
+		19833CE72745AF62006A1B7F /* houseplantAddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		19833CD127456133006A1B7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19833CD327456134006A1B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19833CD627456134006A1B7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19833CDE2745A9D0006A1B7F /* houseplantProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseplantProductRepository.swift; sourceTree = "<group>"; };
+		19833CE32745AB8E006A1B7F /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseplantAddProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		19833CCE27456133006A1B7F /* iosWorkingExample */ = {
 			isa = PBXGroup;
 			children = (
+				19833CE52745AF05006A1B7F /* swiftUiExample */,
+				19833CE22745AB7E006A1B7F /* env */,
+				19833CDD2745A9AE006A1B7F /* houseplant */,
 				19833CCF27456133006A1B7F /* iosWorkingExampleApp.swift */,
 				19833CD127456133006A1B7F /* ContentView.swift */,
 				19833CD327456134006A1B7F /* Assets.xcassets */,
@@ -65,6 +74,30 @@
 				19833CD627456134006A1B7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19833CDD2745A9AE006A1B7F /* houseplant */ = {
+			isa = PBXGroup;
+			children = (
+				19833CDE2745A9D0006A1B7F /* houseplantProductRepository.swift */,
+			);
+			path = houseplant;
+			sourceTree = "<group>";
+		};
+		19833CE22745AB7E006A1B7F /* env */ = {
+			isa = PBXGroup;
+			children = (
+				19833CE32745AB8E006A1B7F /* config.swift */,
+			);
+			path = env;
+			sourceTree = "<group>";
+		};
+		19833CE52745AF05006A1B7F /* swiftUiExample */ = {
+			isa = PBXGroup;
+			children = (
+				19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */,
+			);
+			path = swiftUiExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19833CE72745AF62006A1B7F /* houseplantAddProduct.swift in Sources */,
+				19833CDF2745A9D0006A1B7F /* houseplantProductRepository.swift in Sources */,
+				19833CE42745AB8E006A1B7F /* config.swift in Sources */,
 				19833CD227456133006A1B7F /* ContentView.swift in Sources */,
 				19833CD027456133006A1B7F /* iosWorkingExampleApp.swift in Sources */,
 			);
