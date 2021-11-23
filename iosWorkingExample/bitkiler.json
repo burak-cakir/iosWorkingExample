@@ -1,0 +1,177 @@
+[
+    {"name":"Atatürk Çiçeği (Poinsettia)",
+    "description":"Dünyanın her ülkesinde Atatürk Çiçeği adı ile bilinmektedir. Ulu önder Atatürk'ün bu çiçeği çok sevmesi ve tanıtımına önem vermesi sebebiyle bu ismi aldığı bilinmektedir.",
+    "images":["https://cdnheryerbitki.ikost.com/3065/urunler/3498.jpeg"],
+    "price":1453,
+    "__v":0},
+    {
+       
+        "name":"Dendrobium Purple (Kokulu Orkide)",
+        "description":"Dendrobium orkidenin kökeni Güneydoğu Asya'dır. Bambu orkidesi adı ile bilinir. Direkt güneş ışığı yapraklarına zarar verecektir. Uygun bakım koşulları altında senede 3 ay süreyle çiçek açarak size teşekkür eder. Hoş kokulu çiçekleriyle iç mekanların vazgeçilmez orkide türlerindendir.",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/1197.jpg"],
+        "price":269,
+        "__v":0
+        
+    },
+    {
+        "name":"Ceropegia Woodii (Kalp Kalbe Karşı Çiçeği)",
+        "description":"Kökeni Güney Afrika'dır. Bitkinizin fazla uzamasını istemezseniz uzayan dallarını keserek başka bir saksıya ekebilirsiniz. Uygun bakım koşulları sağlandığında kendine özgü küçük çiçekler verecektir.Yapraklarının kalp şeklindedir ve birbirine dönük şekilde büyümektedir bu nedenle adına “Kalp Kalbe Karşı Çiçeği” denilmektedir.",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/998.jpg"],
+        "price":99,
+        "__v":0
+    },
+    {
+        "name":"Sansevieria (Örgülü Paşa Kılıcı)",
+        "description":"Örgülü paşa kılıcının kökeni Afrika’dır. Paşa kılıçları tam bir hava temizleyicisidir. Gece boyunca oksijen salgılayarak karbondioksiti kendinde depolar. Yatak odanızda ya da fazla havalandıramadığınız iş yerinizde gönül rahatlığıyla ve çok sayıda yetiştirebilirsiniz. Saksı çiçekleri içerisinde bakımı çok kolay tür olarak öne çıkar. Yoğun hayat düzeninizde ofiste veya evde bir kenarda unutsanız dahi yaşamaya devam eder. ",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/2312.jpg"],
+        "price":159,
+        "__v":0
+    },
+    {
+        "name":"Stephonatis (Kokulu Madagaskar Yasemin Çiçeği)",
+        "description":"Madagaskar yasemininin kökeni Madagaskar’dır. Gelin buketi veya gelin mumu çiçeği de denilmektedir. Mis kokulu yasemin çiçekleriyle bulunduğu ortama hoş bir hava katar. İlkbahardan sonbaharada kadar çiçekli kalır. Senede 6 ila 9 ay boyunca çiçekli kalacaktır.Birebir uyumlu saksısı içerisine formu dağılmaması adına üretim saksısı ile ekilmeden gönderilmektedir.",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/2469.jpg"],
+        "price":184,
+        "__v":0
+    },
+    {
+        "name":"Hoya Kerrii Inside(Kalp Sukulent 2'li)",
+        "description":"Kökeni Uzakdoğu'dur. Hoya Kerri (Kalp Kaktüs), gün ışığı sever ancak sarıya dönmeye başlarsa gün ışığından biraz uzaklaştırmanızı öneriyoruz. Lucky-heart (Şanslı Kalp) olarak da bilinir, Uzak doğu ülkelerinde şans getirdiğine inanılır. İç içe büyüyen kalpler, sadakat ve sonsuz birlikteliği temsil eder.",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/1667.jpg"],
+        "price":114,
+        "__v":0
+    },
+    {
+        "name":"Olive Tree (Zeytin Ağacı)",
+        "description":"Zeytin ağacının kökeni Akdeniz'dir. Dostluk ve huzurun sembolü olarak bilinir. Direkt gün ışığı alan alanlarda hızlı büyür ancak yapraklarının güneşin en yoğun olduğu saatlerde yanmaması için gölge konumu tercih edilir. Daha düzenli uzaması ve şeklini koruması için yaz ve ilkbahar aylarında budayarak büyümesini kontrol edebilirsiniz.",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/1885.jpg"],
+        "price":99,
+        "__v":0
+    },
+    {
+        "name":"Maranta Burle (Dua Çiçeği) Mini",
+        "description":"Marantalar egzotik görünümlü yağmur ormanı bitkileridir. Kökeni Brezilyadır. Yaprakları canlı renklerini kaybetmeye başlaması çok fazla gün ışığına maruz kaldığını gösterir. Zarif yaprakları nedeniyle dekorasyonlarda sıklıkla tercih edilir. ",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/1757.jpg"],
+        "price":89,
+        "__v":0
+    },
+    {
+        "name":"Round Blue Orchid (Alacalı Mavi Orkide)",
+        "description":"Alacalı mavi orkidemizin kökeni Güneydoğu Asya'dır. Direkt güneş ışığı yapraklarına zarar verecektir. Uygun bakım koşulları altında senede 1 defa 3 ay süreyle çiçek açarak size teşekkür eder. Geri kalan dönemde yeni sezonda çiçek açmak için enerji toplayacaktır.",
+        "images":["https://cdnheryerbitki.ikost.com/3065/urunler/4009.jpeg"],
+        "price":289,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    },
+    {
+        "name":"",
+        "description":"",
+        "images":[""],
+        "price":80,
+        "__v":0
+    }
+]
