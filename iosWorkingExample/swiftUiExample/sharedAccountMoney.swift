@@ -31,38 +31,47 @@ struct sharedAccountMoney: View {
     
     
     var body: some View {
-        NavigationView{
-            Form{
-                Section{
-                    TextField("Amount " , text: $checkAmount)
-                        .keyboardType(.decimalPad)
-                    Picker("Number of people" , selection: $numberOfPeople){
-                        ForEach(2..<100){
-                            Text("\($0) people")
+        VStack{
+            
+                 NavigationView{
+                    Form{
+                        Section{
+                            TextField("Amount " , text: $checkAmount)
+                                .keyboardType(.decimalPad)
+                            Picker("Number of people" , selection: $numberOfPeople){
+                                ForEach(2..<100){
+                                    Text("\($0) people")
+                                }
+                            }
                         }
-                    }
-                }
-          Section{
-                  Picker("Tip Percantage", selection: $tipPercentage){
-                      ForEach(0 ..< tipPercentages.count) {
-                          Text("\(self.tipPercentages[$0])%")
-                      }
+                  Section{
+                          Picker("Tip Percantage", selection: $tipPercentage){
+                              ForEach(0 ..< tipPercentages.count) {
+                                  Text("\(self.tipPercentages[$0])%")
+                              }
 
-                  }.pickerStyle(.segmented)
-                
-                
-                
-          } header: {
-              Text("How much tip do you want to leave?")
-          }
-                Section{
-                    Text("$\(totalPerPerson , specifier: "%.2f")")
+                          }.pickerStyle(.segmented)
+                        
+                        
+                        
+                  } header: {
+                      Text("How much tip do you want to leave?")
+                  }
+                        Section{
+                            Text("$\(totalPerPerson , specifier: "%.2f")")
+                        }
                 }
-        }
+                
+                
+                }
+        //        .navigationTitle("dfs")
+        //     .navigationBarHidden(true)
+               
         
+        }.foregroundColor(Color.red)
+            .edgesIgnoringSafeArea(.all)
         
     }
-}
 
 struct sharedAccountMoney_Previews: PreviewProvider {
     static var previews: some View {

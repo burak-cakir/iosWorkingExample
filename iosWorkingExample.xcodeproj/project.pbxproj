@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1940751D274D1E7600A86A81 /* bitkiler.json in Resources */ = {isa = PBXBuildFile; fileRef = 1940751C274D1E7600A86A81 /* bitkiler.json */; };
 		19833CD027456133006A1B7F /* iosWorkingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CCF27456133006A1B7F /* iosWorkingExampleApp.swift */; };
 		19833CD227456133006A1B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CD127456133006A1B7F /* ContentView.swift */; };
 		19833CD427456134006A1B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19833CD327456134006A1B7F /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1940751C274D1E7600A86A81 /* bitkiler.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bitkiler.json; path = ../../../../../Desktop/bitkiler.json; sourceTree = "<group>"; };
 		19833CCC27456133006A1B7F /* iosWorkingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosWorkingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19833CCF27456133006A1B7F /* iosWorkingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosWorkingExampleApp.swift; sourceTree = "<group>"; };
 		19833CD127456133006A1B7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		19833CCE27456133006A1B7F /* iosWorkingExample */ = {
 			isa = PBXGroup;
 			children = (
+				19BC44D0274C327200A2D66A /* json */,
 				19833CE52745AF05006A1B7F /* swiftUiExample */,
 				19833CE22745AB7E006A1B7F /* env */,
 				19833CDD2745A9AE006A1B7F /* houseplant */,
@@ -101,6 +104,14 @@
 				19AA424F2748433D005D1251 /* sharedAccountMoney.swift */,
 			);
 			path = swiftUiExample;
+			sourceTree = "<group>";
+		};
+		19BC44D0274C327200A2D66A /* json */ = {
+			isa = PBXGroup;
+			children = (
+				1940751C274D1E7600A86A81 /* bitkiler.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			files = (
 				19833CD727456134006A1B7F /* Preview Assets.xcassets in Resources */,
 				19833CD427456134006A1B7F /* Assets.xcassets in Resources */,
+				1940751D274D1E7600A86A81 /* bitkiler.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
