@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1940751D274D1E7600A86A81 /* bitkiler.json in Resources */ = {isa = PBXBuildFile; fileRef = 1940751C274D1E7600A86A81 /* bitkiler.json */; };
 		19833CD027456133006A1B7F /* iosWorkingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CCF27456133006A1B7F /* iosWorkingExampleApp.swift */; };
 		19833CD227456133006A1B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CD127456133006A1B7F /* ContentView.swift */; };
 		19833CD427456134006A1B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19833CD327456134006A1B7F /* Assets.xcassets */; };
@@ -18,12 +17,11 @@
 		19AA42502748433D005D1251 /* sharedAccountMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA424F2748433D005D1251 /* sharedAccountMoney.swift */; };
 		19DD20D8274E5A1E00A58D8A /* employeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD20D7274E5A1E00A58D8A /* employeeModel.swift */; };
 		19DD20DA274E62BB00A58D8A /* addEmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD20D9274E62BB00A58D8A /* addEmployeeView.swift */; };
-		19DD20DC274E62D600A58D8A /* employeeLise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD20DB274E62D600A58D8A /* employeeLise.swift */; };
+		19DD20DC274E62D600A58D8A /* employeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD20DB274E62D600A58D8A /* employeeList.swift */; };
 		19EFF38A274E55630017EB0C /* employeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EFF389274E55630017EB0C /* employeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1940751C274D1E7600A86A81 /* bitkiler.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bitkiler.json; path = ../../../../../Desktop/bitkiler.json; sourceTree = "<group>"; };
 		19833CCC27456133006A1B7F /* iosWorkingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosWorkingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19833CCF27456133006A1B7F /* iosWorkingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosWorkingExampleApp.swift; sourceTree = "<group>"; };
 		19833CD127456133006A1B7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,7 +33,7 @@
 		19AA424F2748433D005D1251 /* sharedAccountMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharedAccountMoney.swift; sourceTree = "<group>"; };
 		19DD20D7274E5A1E00A58D8A /* employeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeModel.swift; sourceTree = "<group>"; };
 		19DD20D9274E62BB00A58D8A /* addEmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEmployeeView.swift; sourceTree = "<group>"; };
-		19DD20DB274E62D600A58D8A /* employeeLise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeLise.swift; sourceTree = "<group>"; };
+		19DD20DB274E62D600A58D8A /* employeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeList.swift; sourceTree = "<group>"; };
 		19EFF389274E55630017EB0C /* employeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 		19BC44D0274C327200A2D66A /* json */ = {
 			isa = PBXGroup;
 			children = (
-				1940751C274D1E7600A86A81 /* bitkiler.json */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -129,7 +126,7 @@
 				19EFF389274E55630017EB0C /* employeeView.swift */,
 				19DD20D7274E5A1E00A58D8A /* employeeModel.swift */,
 				19DD20D9274E62BB00A58D8A /* addEmployeeView.swift */,
-				19DD20DB274E62D600A58D8A /* employeeLise.swift */,
+				19DD20DB274E62D600A58D8A /* employeeList.swift */,
 			);
 			path = employee;
 			sourceTree = "<group>";
@@ -194,7 +191,6 @@
 			files = (
 				19833CD727456134006A1B7F /* Preview Assets.xcassets in Resources */,
 				19833CD427456134006A1B7F /* Assets.xcassets in Resources */,
-				1940751D274D1E7600A86A81 /* bitkiler.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +209,7 @@
 				19833CD227456133006A1B7F /* ContentView.swift in Sources */,
 				19833CD027456133006A1B7F /* iosWorkingExampleApp.swift in Sources */,
 				19DD20DA274E62BB00A58D8A /* addEmployeeView.swift in Sources */,
-				19DD20DC274E62D600A58D8A /* employeeLise.swift in Sources */,
+				19DD20DC274E62D600A58D8A /* employeeList.swift in Sources */,
 				19DD20D8274E5A1E00A58D8A /* employeeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
