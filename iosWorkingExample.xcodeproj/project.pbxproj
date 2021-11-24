@@ -16,6 +16,7 @@
 		19833CE42745AB8E006A1B7F /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CE32745AB8E006A1B7F /* config.swift */; };
 		19833CE72745AF62006A1B7F /* houseplantAddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */; };
 		19AA42502748433D005D1251 /* sharedAccountMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA424F2748433D005D1251 /* sharedAccountMoney.swift */; };
+		19EFF38A274E55630017EB0C /* employeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EFF389274E55630017EB0C /* employeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		19833CE32745AB8E006A1B7F /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseplantAddProduct.swift; sourceTree = "<group>"; };
 		19AA424F2748433D005D1251 /* sharedAccountMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharedAccountMoney.swift; sourceTree = "<group>"; };
+		19EFF389274E55630017EB0C /* employeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		19833CCE27456133006A1B7F /* iosWorkingExample */ = {
 			isa = PBXGroup;
 			children = (
+				19EFF388274E554E0017EB0C /* employee */,
 				19BC44D0274C327200A2D66A /* json */,
 				19833CE52745AF05006A1B7F /* swiftUiExample */,
 				19833CE22745AB7E006A1B7F /* env */,
@@ -112,6 +115,14 @@
 				1940751C274D1E7600A86A81 /* bitkiler.json */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		19EFF388274E554E0017EB0C /* employee */ = {
+			isa = PBXGroup;
+			children = (
+				19EFF389274E55630017EB0C /* employeeView.swift */,
+			);
+			path = employee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 				19AA42502748433D005D1251 /* sharedAccountMoney.swift in Sources */,
 				19833CDF2745A9D0006A1B7F /* houseplantProductRepository.swift in Sources */,
 				19833CE42745AB8E006A1B7F /* config.swift in Sources */,
+				19EFF38A274E55630017EB0C /* employeeView.swift in Sources */,
 				19833CD227456133006A1B7F /* ContentView.swift in Sources */,
 				19833CD027456133006A1B7F /* iosWorkingExampleApp.swift in Sources */,
 			);
