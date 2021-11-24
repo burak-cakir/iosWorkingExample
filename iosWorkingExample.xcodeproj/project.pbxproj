@@ -16,6 +16,7 @@
 		19833CE42745AB8E006A1B7F /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CE32745AB8E006A1B7F /* config.swift */; };
 		19833CE72745AF62006A1B7F /* houseplantAddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */; };
 		19AA42502748433D005D1251 /* sharedAccountMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA424F2748433D005D1251 /* sharedAccountMoney.swift */; };
+		19DD20D8274E5A1E00A58D8A /* employeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD20D7274E5A1E00A58D8A /* employeeModel.swift */; };
 		19EFF38A274E55630017EB0C /* employeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EFF389274E55630017EB0C /* employeeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		19833CE32745AB8E006A1B7F /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		19833CE62745AF62006A1B7F /* houseplantAddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseplantAddProduct.swift; sourceTree = "<group>"; };
 		19AA424F2748433D005D1251 /* sharedAccountMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharedAccountMoney.swift; sourceTree = "<group>"; };
+		19DD20D7274E5A1E00A58D8A /* employeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeModel.swift; sourceTree = "<group>"; };
 		19EFF389274E55630017EB0C /* employeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				19EFF389274E55630017EB0C /* employeeView.swift */,
+				19DD20D7274E5A1E00A58D8A /* employeeModel.swift */,
 			);
 			path = employee;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				19EFF38A274E55630017EB0C /* employeeView.swift in Sources */,
 				19833CD227456133006A1B7F /* ContentView.swift in Sources */,
 				19833CD027456133006A1B7F /* iosWorkingExampleApp.swift in Sources */,
+				19DD20D8274E5A1E00A58D8A /* employeeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
